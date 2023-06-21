@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
   # root "articles#index"
@@ -7,5 +6,10 @@ Rails.application.routes.draw do
   # Hikes routes
 
   resources :hikes, only: %i[index show]
+  ##### USERS
+  post "/users" => 'users#create'
+
+  ###### HIKE RATINGS
+  get "/hike_ratings" => "hike_ratings#index"
   
 end
