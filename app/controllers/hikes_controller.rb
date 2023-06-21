@@ -14,8 +14,10 @@ class HikesController < ApplicationController
 
   end
 
-  def show_params
-    params.require(:id)
+  private
+    def show_params
+      params.require(:id)
+    end
   end
 
 end
