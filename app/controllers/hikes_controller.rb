@@ -7,11 +7,15 @@ class HikesController < ApplicationController
   end
 
   def show
-    hike_id = params["id"]
-    hike = Hike.find_by(id: hike_id)
+    
+    hike = Hike.find_by(show_params[:id])
 
     render json: hike.as_json 
 
+  end
+
+  def show_params
+    params.require(:id)
   end
 
 end
