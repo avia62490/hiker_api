@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # Hikes routes
 
   resources :hikes, only: %i[index show]
+  
   ##### USERS
   post "/users" => 'users#create'
 
