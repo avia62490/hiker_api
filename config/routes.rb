@@ -6,7 +6,6 @@ Rails.application.routes.draw do
 
   # Hikes routes
 
-  get "/hikes" => "hikes#index"
-  get "/hikes/:id" => "hikes#show"
+  resources :hikes, only: %i[index show]
   
 end
