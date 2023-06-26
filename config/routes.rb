@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   ###### HIKE RATINGS
   get "/hike_ratings" => "hike_ratings#index"
   get "/hike_ratings/:id" => "hike_ratings#show"
+  post "/hike_ratings/" => "hike_ratings#create"
   
 end
