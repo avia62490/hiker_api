@@ -4,4 +4,5 @@ class HikeRatingsController < ApplicationController
     ratings = HikeRating.all
     render json: ratings.as_json
   end
+  
 end
