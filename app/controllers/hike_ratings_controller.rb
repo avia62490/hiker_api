@@ -34,4 +34,5 @@ class HikeRatingsController < ApplicationController
     hike_rating.destroy
     render json: {message: "Rating has been deleted"}
   end
+  
 end
