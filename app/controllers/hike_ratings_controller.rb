@@ -27,6 +27,11 @@ class HikeRatingsController < ApplicationController
     hike_rating.comment = params[:comment] || hike_rating.comment
     hike_rating.save
     render json: hike_rating.as_json
-    # render json: {message: "hello"}
+  end
+
+  def destroy
+    hike_rating = HikeRating.find_by(id: params[:id])
+    hike_rating.destroy
+    render json: {message: "Rating has been deleted"}
   end
 end
