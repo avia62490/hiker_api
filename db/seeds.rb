@@ -21,7 +21,7 @@ Hike.create!([
       latitude: 41.80872,
       longitude: -87.80557,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Forest Glen Woods",
@@ -93,7 +93,7 @@ Hike.create!([
       latitude: 42.06405,
       longitude: -87.77017,
       difficulty: 3,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Chicago River North Branch Trail",
@@ -105,7 +105,7 @@ Hike.create!([
       latitude: 42.04243,
       longitude: -87.78974,
       difficulty: 0,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Palos Forest Preserve",
@@ -225,7 +225,7 @@ Hike.create!([
       latitude: 42.13077,
       longitude: -87.80454,
       difficulty: 3,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Yankee Woods",
@@ -237,7 +237,7 @@ Hike.create!([
       latitude: 41.59154,
       longitude: -87.75581,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Beargrease skillet",
@@ -249,7 +249,7 @@ Hike.create!([
       latitude: 41.5625,
       longitude: -87.6438,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Sweet Woods",
@@ -261,7 +261,7 @@ Hike.create!([
       latitude: 41.55737,
       longitude: -87.59858,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "The Forge: Lemont Quarries",
@@ -285,7 +285,7 @@ Hike.create!([
       latitude: 41.51976,
       longitude: -87.62866,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Messenger Woods",
@@ -297,7 +297,7 @@ Hike.create!([
       latitude: 41.57089,
       longitude: -87.95315,
       difficulty: 0,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Spring Creek Greenway trail",
@@ -333,7 +333,7 @@ Hike.create!([
       latitude: 42.07014,
       longitude: -88.1103,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "DuPage River Sports Complex",
@@ -357,7 +357,7 @@ Hike.create!([
       latitude: 41.83952,
       longitude: -88.18475,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Dupage River Single Track Trail",
@@ -381,7 +381,7 @@ Hike.create!([
       latitude: 41.82947,
       longitude: -88.14479,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Deer Grove",
@@ -489,7 +489,7 @@ Hike.create!([
       latitude: 42.08368,
       longitude: -88.23068,
       difficulty: 0,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Lakewood Forest (Snowshoe / Snowmobile)",
@@ -645,7 +645,7 @@ Hike.create!([
       latitude: 42.63631,
       longitude: -88.12713,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Bong State Park Trails",
@@ -657,7 +657,7 @@ Hike.create!([
       latitude: 42.62809,
       longitude: -88.14829,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Bourissa Hills",
@@ -705,7 +705,7 @@ Hike.create!([
       latitude: 42.15215,
       longitude: -86.43983,
       difficulty: 5,
-      thumbnail: null
+      thumbnail: "null"
     },
     {
       name: "Andrew's University Trail",
@@ -837,7 +837,7 @@ Hike.create!([
       latitude: 0.0,
       longitude: 0.0,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Alpha Trail",
@@ -873,7 +873,7 @@ Hike.create!([
       latitude: 41.2949,
       longitude: -86.39498,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Muskego Multi-use trail",
@@ -885,7 +885,7 @@ Hike.create!([
       latitude: 42.89928,
       longitude: -88.1647,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Rock Cut State Park",
@@ -909,7 +909,7 @@ Hike.create!([
       latitude: 42.1812,
       longitude: -89.05936,
       difficulty: 3,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Marila Park",
@@ -945,7 +945,7 @@ Hike.create!([
       latitude: 41.13579,
       longitude: -88.86169,
       difficulty: 1,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Matthiessen",
@@ -1065,7 +1065,7 @@ Hike.create!([
       latitude: 43.10084,
       longitude: -88.05323,
       difficulty: 5,
-      thumbnail: null
+      thumbnainull
     },
     {
       name: "Kletzsch Park Trails",
