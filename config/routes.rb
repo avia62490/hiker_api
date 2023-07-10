@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  # Hikes routes
+  ##### HIKES
 
   resources :hikes, only: %i[index show]
   
