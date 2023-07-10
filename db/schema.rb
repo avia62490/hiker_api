@@ -10,9 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_26_165108) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_10_160732) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "favorite_hikes", force: :cascade do |t|
+    t.integer "hike_id"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "hike_ratings", force: :cascade do |t|
     t.integer "hike_id"
@@ -41,6 +48,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_26_165108) do
   create_table "hikes_users", id: false, force: :cascade do |t|
     t.bigint "hike_id", null: false
     t.bigint "user_id", null: false
+    t.index ["hike_id", "user_id"], name: "index_hikes_users_on_hike_id_and_user_id"
+    t.index ["user_id", "hike_id"], name: "index_hikes_users_on_user_id_and_hike_id"
   end
 
   create_table "users", force: :cascade do |t|
