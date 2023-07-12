@@ -1,3 +1,5 @@
+
+
 ### USER CREATE
 POST http://localhost:3000/users.json
 Content-Type: application/json
@@ -17,3 +19,15 @@ Content-Type: application/json
   "email": "phil@test.com",
   "password": "password"
 }
+
+### Favorites create
+POST http://localhost:3000/favorite_hikes.json
+Content-Type: application/json
+
+{
+  "hike_id": 5,
+  "user_id": 1
+}
+
+### Favorites destroy
+DELETE http://localhost:3000/favorite_hikes/4.json
