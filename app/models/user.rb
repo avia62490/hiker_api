@@ -3,10 +3,10 @@ class User < ApplicationRecord
 
   validates :email, presence: true, uniqueness: true
 
-  has_many :favorite_hike
-  has_many :hike, through: :favorite_hike
+  has_many :favorite_hikes
+  has_many :hikes, through: :favorite_hikes
 
-  has_many :hike_rating
-  has_many :hike, through: :hike_rating
+  has_many :hike_ratings
+  has_many :hikes, through: :hike_ratings
 
 end

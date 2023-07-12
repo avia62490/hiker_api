@@ -11,14 +11,13 @@ class HikeRatingsController < ApplicationController
   end
 
   def create
-    hike_rating = HikeRating.new(
-      user_id: params[:user_id],
+    hike_rating = current_user.hike_ratings.new(
       hike_id: params[:hike_id],
       rating: params[:rating],
       comment: params[:comment]
     )
     hike_rating.save
-    render json: rating.as_json
+    render json: hike_rating.as_json
   end
   
   def update

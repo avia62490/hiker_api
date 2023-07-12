@@ -11,9 +11,8 @@ class FavoriteHikesController < ApplicationController
   end
 
   def create
-    favorite_hike = FavoriteHike.new(
-      hike_id: params[:hike_id],
-      user_id: params[:user_id]
+    favorite_hike = current_user.favorite_hikes.new(
+      hike_id: params[:hike_id]
     )
     favorite_hike.save
     render json: favorite_hike.as_json
