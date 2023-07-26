@@ -8,7 +8,10 @@ Rails.application.routes.draw do
   resources :hikes, only: %i[index show]
   
   ##### USERS
-  post "/users" => 'users#create'
+ 
+  get "/users/:id" => "users#show"
+  post "/users/" => "users#create"
+
 
   ##### SESSIONS
   post "/sessions" => "sessions#create"
