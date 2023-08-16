@@ -7,19 +7,14 @@ class HikesController < ApplicationController
   end
 
   def show
-    
     hike = Hike.find(params[:id])
 
     render json: hike.as_json 
-
   end
 
   private
-    def show_params
-      params.require(:id)
-    end
 
-
-
-
+  def show_params
+    params.require(:id)
+  end
 end
