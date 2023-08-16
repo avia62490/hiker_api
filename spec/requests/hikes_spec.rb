@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe "Hikes", type: :request do
   describe "GET /index" do
-    let!(:hike_1) { Hike.create! }
-    let!(:hike_2) { Hike.create! }
+    let!(:hike_1) { create(:hike) }
+    let!(:hike_2) { create(:hike) }
 
     before { get hikes_path }
 
@@ -17,7 +17,7 @@ RSpec.describe "Hikes", type: :request do
   end
 
   describe "GET /show" do
-    let!(:hike_1) { Hike.create! }
+    let!(:hike_1) { create(:hike) }
 
     before { get hike_path(hike_1.id) }
 
